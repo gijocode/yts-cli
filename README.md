@@ -42,7 +42,7 @@ This will install all the necessary libraries for the project to run.
 Once the dependencies are installed, you can run the CLI by executing the following command:
 
    ```bash
-python app.py
+      python app/main.py
    ```
 
 ## Dependencies

@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_delay, wait_exponential
-from movie import Movie
+from models.movie import Movie
 
 
 class IMDB:

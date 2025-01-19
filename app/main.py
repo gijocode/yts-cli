@@ -6,8 +6,8 @@ from tenacity import retry, stop_after_delay
 from rich import print
 from rich.prompt import Prompt
 from rich.console import Console
-from yts_wrapper import YTS
-from imdb_wrapper import IMDB
+from wrappers.yts_wrapper import YTS
+from wrappers.imdb_wrapper import IMDB
 from iterfzf import iterfzf
 from constants import GENRES, DOWNLOAD_PATH, LANGUAGES
 
